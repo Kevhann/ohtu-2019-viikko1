@@ -30,13 +30,14 @@ dependencies {
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
 }
+
+
+// Define the main class for the application
+mainClassName = 'ohtu.ohtuvarasto.Main'
+
 jacocoTestReport {
     reports {
         xml.enabled true
         html.enabled true
     }
 }
-
-// Define the main class for the application
-mainClassName = 'ohtu.ohtuvarasto.Main'
-
