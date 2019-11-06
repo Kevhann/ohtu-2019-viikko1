@@ -30,9 +30,7 @@ public class Varasto {
         return saldo;
     }
 
-    public double getTilavuus()
-
-    {
+    public double getTilavuus() {
         return tilavuus;
     }
 
